@@ -1,0 +1,995 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: url(/asset/unsplash_SfDofjXtxHE.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section{
+
+}
+
+.main{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6rem 4rem 6rem;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.company-name img{
+    height: 2rem;
+    width: auto;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    color: rgb(61, 61, 222);
+    font-size: smaller;
+    list-style: none;
+}
+
+#home{
+    color: white;
+
+}
+
+button{
+    color: #17C2EC;
+    background-color: rgba(255, 255, 255, 0.096);
+    /* box-sizing: 2px 8px 0px rgba(0, 0, 0,0.2); */
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.level-1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vaccine-group{
+    margin-left: 4rem;
+}
+
+.vaccine-group p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #17C2EC;
+}
+
+#covid{
+    margin-top: 2rem;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+#vng{
+    color: #17C2EC ;
+}
+
+#centre{
+    margin-top: 2rem;
+    font-size: 18px;
+    color: white;
+}
+
+.buttons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.btn1{
+    color: white;
+    background-color: #17C2EC;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.btn1:hover{
+    background-color: rgb(0, 0, 33);
+    border-color: white;
+}
+
+.btn2{
+    color: white;
+    background-color: #17c1ec22;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 33);
+    border: 1px solid white;
+}
+
+.images{
+    margin-right: 6rem;
+}
+.images img{
+    width: 22rem;
+    width: auto;
+    /* position: absolute; */
+}
+
+#group{
+    position: relative;
+    bottom: 22rem;
+    right: 3rem;
+}
+
+#group-2{
+    position: relative;
+    bottom: 22rem;
+    right: -23rem;
+}
+
+#group-3{
+    position: relative;
+    width: 18rem;
+    height: auto;
+    left: -18rem;
+    bottom: 5rem;
+}
+
+.level-2{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.schedule img{
+    width: 45px;
+    height: auto;
+}
+
+.schedule{
+    font-size: 18px;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.box-1{
+    width: 100%;
+    height: 10rem;
+    background-color: #17c1ec22 ;
+    margin-top: 1rem;
+    border: 1px solid transparent;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 3rem 3rem 3rem;
+}
+
+.location{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.location img{
+    width: 45px;
+    height: auto;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+}
+.sub p{
+    color: #17C2EC;
+}
+
+.box-2{
+    width: 100%;
+    height: 9rem;
+    background-color: white;
+    
+    /* background-color: red; */
+    justify-content: center;
+
+}
+
+.box-2 img{
+    margin: 1rem 6rem 6rem 4rem;
+    width: 88%;
+    height: auto;
+}
+
+.level-3{
+    margin: 3rem 6rem 3rem 6rem;
+}
+
+.database{
+    width: 100%;
+    height: 20rem;
+    background-color: #17c1ec22;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.check{
+    padding: 2rem 0 2rem 3rem ;
+    background-color: #17c1ec29;
+    color: white;
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form{
+    margin: 3rem 3rem 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name{
+    color: white;
+    background-color: transparent;
+    padding: 0.7rem 24rem 0.7rem 1rem;
+    border: 2px solid #17c1ec31;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#name:hover{
+    border: 2px solid white;
+}
+
+#name-1{
+    color: white;
+    background-color: transparent;
+    padding: 0.7rem 22rem 0.7rem 1rem;
+    border: 2px solid #17c1ec31;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#name-1:hover{
+    border: 2px solid white;
+}
+
+#btn3{
+    color: white;
+    background-color: transparent;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    border: 2px solid #17c1ec31;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#btn3:hover{
+    border: 2px solid white;
+}
+
+.need{
+    color: #17C2EC;
+    font-weight: 18px;
+    text-align: center;
+    padding: 1rem 1rem 1rem 2rem ;
+    background-color: #17c1ec22;
+    margin: 0 3rem 0 3rem;
+    border-radius: 15px;
+}
+
+.level-4{
+    margin: 3rem 6rem 3rem 6rem;
+
+}
+
+.today{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.rhs-1{
+    font-size: 18px;
+    color: #17C2EC;
+}
+.sizing{
+    margin-top: 3rem;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8rem;
+    
+}
+.size-1{
+    width: 25rem;
+    height: 27rem;
+    background-color: #17c1ec29;
+    border-radius: 25px;
+    border-top-right-radius: 45%;
+}
+.sub-size{
+    margin-left: 2rem;
+}
+.sub-size img{
+    width: 80px;
+    height: auto;
+    margin-top: 3rem;
+}
+.sub-size p{
+    font-size: 18px;
+    color: #17C2EC;
+    margin-top: 2rem;
+}
+.two-size{
+    display: flex;
+    gap: 8rem;
+    margin-top: 12rem;
+}
+
+.sub-size div{
+    font-size: 15px;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.size-2{
+    
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.cub-size{
+    margin-left: 1rem;
+}
+.cub-size img{
+    width: 50px;
+    height: auto;
+    margin-top: 1rem;
+}
+.cub-size div{
+    margin-top: 1rem;
+    color: white;
+    font-size: 18px;
+}
+
+.cub-size p{
+    margin-top: 3rem;
+    color: #17C2EC;
+    font-size: 15px;
+}
+
+.level-5{
+    width: 100%;
+    height: 34rem;
+    background-color: white;
+    margin-top: 5rem;
+}
+.level-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 6rem 2rem 6rem;
+}
+
+#gett{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 2rem 0 0 6rem;
+}
+.lhs{
+    margin-top: 2rem;
+}
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-bottom: 1rem; */
+}
+input{
+    margin-top: 0.5rem;
+    padding: 0.9rem 15rem 0.9rem 2rem;
+    background-color: rgba(215, 215, 215, 0.862);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+input::placeholder{
+    color: grey;
+}
+input:hover{
+    background-color: white;
+    border: 2px solid #17C2EC;
+}
+
+#notifications{
+    font-size: 12px;
+    color: grey;
+    margin-top: 1rem;
+}
+
+#img{
+    height: 3rem;
+    width: 10rem;
+}
+
+.other{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#label-2{
+    margin-top: 1rem;
+    padding: 0.9rem 7.5rem 0.9rem 2rem;
+    background-color: rgba(215, 215, 215, 0.862);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+#label-2:hover{
+    background-color: white;
+    border: 2px solid #17C2EC;
+}
+
+.verify{
+    margin-top: 1rem;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    background-color: #17C2EC;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.verify:hover{
+    background-color: #04a5cd;
+}
+
+.btn4{
+    margin-top: 0.5rem;
+    padding: 0.5rem 4rem 0.9rem 4rem;
+    background-color: #17C2EC;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.btn4:hover{
+    background-color: #04a5cd;
+}
+
+#already{
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
+
+#check-status{
+    color: #17C2EC;
+}
+
+.rhs{
+    margin-top: -2rem;
+
+}
+
+.rhs img{
+    width: 20rem;
+    height: auto;
+}
+
+.level-6{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem 6rem 0 6rem;
+}
+#presentation{
+    margin-top: 3rem;
+    color: white;
+    font-size: 18px;
+}
+
+.symptoms{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#bios{
+    margin-top: 1.5rem;
+    font-size: 18px;
+    color: white;
+}
+
+.level-6 img{
+    margin-top: 3rem;
+    height: 20rem;
+    width: auto;
+}
+
+.level-7{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    /* margin-top: 5rem;     */
+    text-align: center;      
+    position: absolute;
+}
+
+#checkstatus{
+    padding-top: 3rem;
+    color: #17C2EC;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+#patients{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 2rem;
+}
+
+.level-7 p{
+    font-size: 18px;
+    color: #00000080;
+    margin-top: 2rem;
+}
+
+.serum img{
+    width: 60rem;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    bottom: 24rem;
+}
+
+.serum-2 img{
+    display: none;
+    width: 9rem;
+    height: auto;
+    position: relative;
+}
+
+.thoughts{
+    /* position: absolute; */
+    margin: 6rem 6rem 3rem 6rem; 
+    display: flex;
+    justify-content: space-between;
+    top: 10rem;
+}
+.thought-1{
+    width: 20rem;
+    height: 12.5rem ;
+    background-color: #ababab80;
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 1.5rem 0 1.5rem;
+    gap: 20px;
+}
+.profile img{
+    width: 3rem;
+    height: auto;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#profile-name{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+#profile-address{
+    font-size: 12px;
+    color: #00000080;
+}
+
+#comment{
+    margin-top: 3rem;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.thought-2{
+    width: 20rem;
+    height: 12.5rem ;
+    background-color: #17C2EC;
+    border-radius: 10px;
+}
+#profile-name-2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#profile-address-2{
+    font-size: 12px;
+    color: white;
+}
+
+#comment-2{
+    color: white;
+    font-size: 15px;
+    margin-top: 3rem;
+}
+
+.footer-cerca{
+    width: 70%;
+    height: 17rem;
+    background-color: #17C2EC;
+    border: 10px solid rgba(0, 0, 0, 0.028);
+    border-radius: 20px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    position: relative;
+    bottom: -42rem;
+    display: grid;
+    place-items: center;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+#quote{
+    color: white;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#please{
+    font-size: 18px;
+    color: white;
+    margin-top: 1rem;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+}
+#suggestions{
+    padding: 0.9rem 15rem 0.9rem 2rem;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 3rem;
+}
+
+#send img{
+    position: relative;
+    background-color: rgb(0, 0, 75);
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 16.7px;
+    right: -170px;
+}
+footer{
+    /* position: absolute; */
+}
+.fini{
+    margin: 47rem 6rem 8rem 6%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8rem; 
+    align-items: center; 
+}
+
+.company-name-2 img{
+    height: 2rem;
+    width: auto;
+}
+
+.media img{
+    height: 2rem;
+    width: auto;
+}
+
+.menu-2{
+    /* color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px; */
+
+    display: flex;
+    gap: 25px;
+    color: rgb(61, 61, 222);
+    font-size: smaller;
+    list-style: none;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    body{
+        font-family: "Montserrat", sans-serif;
+        background: url(/asset/unsplash_SfDofjXtxHE.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat-y;
+        /* width: 100%; */
+        height: 100vh;
+    }
+
+    nav{
+
+        padding: 2rem 2rem 4rem 2rem;
+    }
+
+    .company-name img{
+        height: 2rem;
+        width: auto;
+    }
+
+    .menu{
+        display: none;
+    }
+    .level-1{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    .vaccine-group p{
+        font-size: 15px;
+    }
+    #centre{
+        font-size: 15px;
+    }
+
+    .images img{
+
+    }
+    .images{
+        margin-right: 2rem;
+        margin-left: 7rem;
+    }
+    .images img{
+        width: 18rem;
+        width: auto;
+        /* position: absolute; */
+    }
+
+    .level-2{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .schedule img{
+        width: 36px;
+        height: auto;
+    }
+    
+    .schedule{
+        font-size: 18px;
+        color: white;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .box-1{
+        width: 100%;
+        height: 11rem;
+        background-color: #17c1ec22 ;
+        margin-top: 1rem;
+        border: 1px solid transparent;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .boxes{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin: 2rem 4rem 3rem 4rem;
+    }
+    
+    .btn1{
+        color: white;
+        background-color: #17C2EC;
+        padding: 0.7rem 1.5rem 0.7rem 1rem;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .box-2{
+        width: 100%;
+        height: 4rem;
+        /* background-color: white; */
+        
+    background-color: white;
+        justify-content: center;
+    
+    }
+    
+    .box-2 img{
+        margin: 0.4rem 2rem 2rem 5rem;
+        width: auto;
+        height: 3.5rem;
+    }
+
+    .check{
+        text-align: center;
+    }
+    .form{
+        display:flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #btn3{
+    color: white;
+    background-color: transparent;
+    /* padding: 0.7rem 2rem 0.7rem 2rem; */
+    border: 2px solid #17c1ec31;
+    border-radius: 10px;
+    font-weight: 500;
+
+    height: 2.8rem; width: 8rem;
+    }
+
+    .database{
+        width: 100%;
+        height: 27.5rem;
+        background-color: #17c1ec22;
+        border: 1px solid transparent;
+        border-radius: 15px;
+    }
+
+    .need{
+        font-size: 12px;
+    }
+
+    .today{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #covid{
+        font-size: 30px;
+    }
+
+    .rhs-1{
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    
+    .sizing{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .two-size{
+        margin-top: 3rem;
+    }
+    .level-5{
+        width: 100%;
+        height: 65rem;
+    }
+    .level-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .lhs{
+        margin-top: 3rem;
+    }
+
+    input{
+        padding: 0.9rem 23rem 0.9rem 2rem; 
+    }
+
+    #label-2{
+        padding: 0.9rem 15.5rem 0.9rem 2rem; 
+    }
+
+    .rhs img{
+        margin-top: 3rem;
+    }
+
+    .level-6{
+        margin: 3rem 2rem 0 2rem;
+    }
+    #presentation{
+        font-size: 15px;
+    }
+
+    .symptoms{
+        margin-top: 1.5rem;
+        font-size: 32px;
+    }
+    #bios{
+        font-size: 15px;
+        word-wrap: break-word;
+        padding: 5px 5px;
+    }
+
+    .level-6 img{
+        height: 17rem;
+        width: auto;
+    }
+
+    .level-7{
+        width: 100%;
+        height: 80rem;
+    }
+
+    #checkstatus, .level-7 p{
+        font-size: 15px;
+    }
+
+    #patients{
+        font-size: 32px;
+    }
+
+    .thoughts{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+  
+
+    .serum img{
+        display: none;
+    }
+   
+    .serum-2 img{
+        display: block;
+        bottom: 46rem;
+        left: 20rem;
+    }
+
+    .footer-cerca{
+        bottom: -72rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .fini{
+        margin: 47rem 6rem 8rem 6%;
+        color: red;
+    }
+}
