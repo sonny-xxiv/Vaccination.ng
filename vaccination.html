@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaccination</title>
+   
     <link rel="stylesheet" href="vaccine.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    
     <main>
-        <div class="hero-section">
-            <nav>
+        
+            <nav id="nav">
                 <div class="company-name"> <img src="/asset/Group 3.png" alt=""> </div> 
+                
                 <ul class="menu">
                     <li id="home"> Home </li>
                     <li> Services </li>
@@ -21,12 +26,20 @@
                     <li> Contact us </li>
                 </ul>
                 <button> Check Status </button>
+
+                <i class='bxr  bx-arrow-right-stroke'  id="cancel-icon"></i>
+                 
             </nav>
+
+            <div class="other-view">
+                <div class="logo-3"> <img src="/asset/Group 3.png" alt=""> </div>
+                <i class='bxr  bx-menu-right' id="menu-icon"></i> 
+            </div>
 
             <div class="level-1">
                 <div class="vaccine-group"> 
                     <p> Get Vaccinated. Boost your immune system </p>
-                    <div id="covid">
+                    <div id="covid199">
                         COVID-19 Vaccination <br> Got easier with, <br> 
                         <span id="vng">Vaccination.ng</span>
                     </div>
@@ -50,7 +63,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
         <div class="level-2">
             <div class="schedule"> 
                 <img src="/asset/Group 5.png" alt="">
@@ -92,7 +105,7 @@
                 <div class="check"> Check your COVID-19 result on your Database</div>
                 <div class="form">
                     <div id="name"> Name </div>
-                    <div id="name-1"> NIN number </div>
+                    <div id="name-1"> NIK Number </div>
                     <div id="btn3"> Check </div>
                 </div>
                 <div class="need">
@@ -156,7 +169,7 @@
                     <input type="text" placeholder="Full Name"> <br>
                     <label for=""> Mobile Number </label>
                     <div id="notifications">
-                        Notifications for appointment and reminders will be sent to this <br>
+                        Notifications for appointment and reminders <br> will be sent to this 
                         provided number
                     </div>
                     <div class="other">
@@ -260,11 +273,10 @@
             </ul>
             <div class="media"> <img src="/asset/Group 81.png" alt=""> </div>
             </div>  
-
-
-            .
         </footer>
 
     </main>
+
+    <script src="vaccine.js"></script>
 </body>
 </html>
