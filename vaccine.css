@@ -658,7 +658,7 @@ input:hover{
     height: 17rem;
     background-color: #17C2EC;
     border: 10px solid rgba(0, 0, 0, 0.028);
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 6rem;
     margin-right: 6rem;
     position: relative;
@@ -691,19 +691,26 @@ input:hover{
     padding: 0.9rem 15rem 0.9rem 2rem;
     background-color: white;
     border: 1px solid transparent;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 3rem;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#suggestions:hover{
+    border-color: #04a5cd;
+}
+#enter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #send img{
-    position: relative;
     background-color: rgb(0, 0, 75);
-    padding: 0.3rem 2rem 0.3rem 2rem;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    bottom: 16.7px;
-    right: -170px;
+    padding: 0.15rem 2rem 0.3rem 2rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -1.2rem;
 }
 footer{
     /* position: absolute; */
@@ -714,6 +721,7 @@ footer{
     justify-content: space-evenly;
     gap: 8rem; 
     align-items: center; 
+    padding-bottom: 5rem;
 }
 
 .company-name-2 img{
@@ -758,26 +766,46 @@ footer{
     nav.mobile-visible {
         display: flex !important;
         flex-direction: column;
-        height: 100vh;
-        position: fixed;
+        height: 100%;
+        position: absolute;
+        background: url(/asset/unsplash_SfDofjXtxHE.png);
+        /* gap: 1rem; */
+        bottom: 0;
         top: 0;
         right: 0;
         left: 0;
+        z-index: 10;
+    }
+ 
+
+    .menu{
+        flex-direction: column;
+    }
+    button{
+        flex-direction: column;
+    } 
+
+    #cancel-icon{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        color: white;
+        font-size: 2rem;
     }
 
-    /* .company-name img{
-        height: 2rem;
-        width: auto;
-    } */
+
+    #menu-icon{
+        font-size: 2rem;
+        color: white;
+        background-color: #17c1ec29;
+        padding: 7px 7px;
+        border-radius: 7px;
+    }  
 
     .other-view{
         display: flex;
         justify-content: space-between;
         margin: 3rem 4rem 5rem 4rem;
-    }
-
-    button{
-        display: none;
     }
 
     #menu-icon{
@@ -799,9 +827,10 @@ footer{
     #centre{
         font-size: 20px;
     }
-    #covid199{
+
+    #covid{
         margin-top: 2rem;
-        font-size: 36px;
+        font-size: 48px;
         font-weight: 600;
         color: white;
     }
@@ -938,7 +967,7 @@ footer{
     }
 
     #covid{
-        font-size: 30px;
+        /* font-size: 30px; */
     }
 
     .rhs-1{
@@ -969,11 +998,11 @@ footer{
     }
 
     input{
-        padding: 0.9rem 23rem 0.9rem 2rem; 
+        padding: 0.9rem 25rem 0.9rem 2rem; 
     }
 
     #label-2{
-        padding: 0.9rem 15.5rem 0.9rem 2rem; 
+        padding: 0.9rem 17.5rem 0.9rem 2rem; 
     }
 
     .rhs img{
@@ -1039,11 +1068,23 @@ footer{
         bottom: -72rem;
         margin-left: 4rem;
         margin-right: 4rem;
+        width: 80%;
+        left: 2rem;
     }
 
+
+
     .fini{
-        margin: 47rem 6rem 8rem 6%;
+        margin: 47rem 4rem 8rem 4rem;
         color: red;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:  4rem;
+        padding-right: 4rem;
+        bottom: -32rem;
+        gap: 2rem;
     }
 }
 
@@ -1065,14 +1106,14 @@ footer{
     nav.mobile-visible {
         display: flex !important;
         flex-direction: column;
-        height: 100%;
+        height: 70%;
         gap: 1rem;
         background: url(/asset/unsplash_SfDofjXtxHE.png);
         position: absolute;
         top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
+        right: 10px;
+        /* left: 0; */
+        bottom: 20px;
         z-index: 10;
     }
 
@@ -1081,8 +1122,10 @@ footer{
     }
     button{
         flex-direction: column;
+    } 
+    .company-name img{
+        height: 1.2rem;
     }
-
     .other-view{
         display: flex;
         justify-content: space-between;
@@ -1435,6 +1478,7 @@ footer{
     .level-7{
         width: 100%;
         height: 65rem;
+        
     }
     #checkstatus{
         font-size: 14px;
@@ -1485,14 +1529,68 @@ footer{
     }
 
     .footer-cerca{
-        display: none;
+        width: 80%;
+        height: 15rem;
+        background-color: #17C2EC;
+        border: 10px solid rgba(0, 0, 0, 0.028);
+        border-radius: 20px;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        position: relative;
+        bottom: -58rem;
+        display: grid;
+        place-items: center;
+        left: -3.2rem;
+        right: 10%;
+        text-align: center;
+    }
+
+    #quote{
+        color: white;
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #please{
+        font-size: 12px;
+    }
+
+    #suggestions{
+        padding: 0.9rem 0 0.9rem 2rem;
+        background-color: white;
+        border: 1px solid transparent;
+    }
+
+    #send img{
+        background-color: rgb(0, 0, 75);
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    #enter{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 0;
     }
 
     .fini{
-
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin-left:  -1rem;
+        bottom: -14rem;
+        /* background-color: brown; */
     }
 
+    .menu-2{
+        flex-direction: column;
+        margin-left: -2.5rem;
+    }
     .menu-2, .media{
-        display: none;
+        /* display: none; */
     }
 }
